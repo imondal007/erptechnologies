@@ -6888,9 +6888,52 @@ button.close {
 /* =========================
           Layout Styles 
    ========================= */
+.l-img-center {
+  margin: 0 auto;
+}
+
+.l-list-inline {
+  display: inline-block;
+}
+
 /* =========================
           Modules Styles 
    ========================= */
+/* Navbar */
+.navbar-transparent {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-center {
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+  display: table;
+}
+
+.link-list-inline {
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+  padding: 0;
+}
+
+.link-list-inline li {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.link-list-inline li:first-child {
+  margin-left: 0;
+}
+
+.link-list-inline li:last-child {
+  margin-right: 0;
+}
+
 /* =========================
           Theme Styles 
    ========================= */
