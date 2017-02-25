@@ -1,3 +1,144 @@
 /* =========================
           Theme Styles 
    ========================= */
+
+// -- Universal -- //
+
+// Typography
+.text-warning {
+	color: $brand-warning;
+}
+
+//Align left only on large device
+.text-right-md {
+	@media screen and (min-width: 768px) {
+		text-align: right;
+	}
+}
+
+.text-left-md {
+	@media screen and (min-width: 768px) {
+		text-align: left;
+	}
+}
+
+.text-center-md {
+	@media screen and (min-width: 768px) {
+		text-align: center;
+	}
+}
+.t-gray-lighter-bg {
+	background: $gray-lighter;
+}
+
+.t-dark-bg {
+	background: $black-lighter;
+	color: $white;
+}
+
+//Repeted dark image background
+.t-dark-img-bg-rpt {
+	color: $white;
+}
+
+//Margins
+.t-margin-tp-0x {
+	margin-top: $margin-0x;
+}
+
+.t-margin-bt-0x {
+	margin-bottom: $margin-0x;
+}
+
+.t-margin-bt-1x {
+	margin-bottom: $margin-1x;
+}
+
+.t-margin-bt-2x {
+	margin-bottom: $margin-2x;
+}
+
+.t-margin-bt-3x {
+	margin-bottom: $margin-3x;
+}
+
+.t-margin-bt-mob {
+	@media screen and(max-width: 767px) {
+		margin-bottom: $margin-2x;
+	}
+}
+
+.t-margin-r-desktop {
+	@media screen and(min-width: 768px) {
+		margin-right: 1.5px;
+	}
+}
+
+.t-margin-l-desktop {
+	@media screen and(min-width: 768px) {
+		margin-left: 1.5px;
+	}
+}
+
+// Customized
+.home-header {
+	background-image: url("../img/header-bg.jpg");
+}
+
+.intro {
+	background-image: url("../img/zigzag.jpg");
+}
+
+.t-clients-logo {
+	padding: 10%;
+	min-height: 222px;
+	max-height: 222px;
+	position: relative;
+}
+
+.t-clients-logo img {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	width: 81%;
+  	padding:5%
+}
+
+.t-testimonial-carousel {
+	padding: 10%;
+	min-height: 474px;
+}
+
+.t-copyright-text {
+	padding-bottom: 8px;
+	margin-bottom: 8px;	
+}
+
+footer a:hover {
+	color: #ddd;
+}
+
+.t-icon-round {
+    background: #ffc820;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding-top: 27px;
+}
+
+.text-warning {
+	color: $brand-warning;
+}
+
+.carousel-indicators {
+    bottom: 60px;
+}
+
+.carousel-indicators .active {
+    background-color: $black-lighter;
+}
+
+.carousel-indicators li {
+    border: 1px solid $black-lighter;
+}

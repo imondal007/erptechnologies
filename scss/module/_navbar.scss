@@ -3,6 +3,41 @@
 .navbar-transparent {
     background-color: transparent;
     border-color: transparent;
+
+    .navbar-nav > li > a {
+    	color: $white;
+    	font-size: .9em;
+    	padding-top: 18px;
+    	padding-bottom: 18px;
+	}
+
+    .navbar-nav > li > a:hover {
+    	color: $brand-warning;
+	}
+
+    .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    	color: $brand-warning !important;
+    	background-color: transparent !important;
+    }
+
+    .navbar-nav > li > a.btn-xs {
+        padding: 7px 15px;
+        margin:11px 0;
+        font-size: .9em;
+    }
+
+    .navbar-nav > li > a.btn-warning {
+        color: $btn-warning-color;
+    }
+
+    .navbar-nav > li > a.btn-warning:hover {
+        background-color: $btn-warning-bg;
+    }
+
+}
+
+.navbar-transparent-onscroll {
+    background-color: $black-lighter;
 }
 
 .navbar-center {
