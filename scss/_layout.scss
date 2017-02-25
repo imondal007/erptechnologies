@@ -2,6 +2,96 @@
           Layout Styles 
    ========================= */
 
+// Padding
+
+.l-pd {
+	padding: $padding-0x;
+
+	&.pd-1x {
+		padding: $padding-1x;
+	}
+
+	&.pd-2x {
+		padding: $padding-2x;
+	}
+
+	&.pd-3x {
+		padding: $padding-3x;
+	}
+}
+
+// Margin
+
+.l-mr {
+
+	
+	// Universal
+	&.mr-1x {
+		margin: $margin-1x;
+	}
+
+	&.mr-2x {
+		margin: $margin-2x;
+	}
+
+	&.mr-3x {
+		margin: $margin-3x;
+	}
+	
+	// Margin Top
+	&.mr-tp-1x {
+		margin-top: $margin-1x;
+	}
+
+	&.mr-tp-2x {
+		margin-top: $margin-2x;
+	}
+
+	&.mr-tp-3x {
+		margin-top: $margin-3x;
+	}
+	
+	// Margin right
+	&.mr-r-1x {
+		margin-right: $margin-1x;
+	}
+
+	&.mr-r-2x {
+		margin-right: $margin-2x;
+	}
+
+	&.mr-r-3x {
+		margin-right: $margin-3x;
+	}
+	
+	// Margin bottom
+	&.mr-bt-1x {
+		margin-bottom: $margin-1x;
+	}
+
+	&.mr-bt-2x {
+		margin-bottom: $margin-2x;
+	}
+
+	&.mr-bt-3x {
+		margin-bottom: $margin-3x;
+	}
+	
+	// Margin left
+	&.mr-l-1x {
+		margin-left: $margin-1x;
+	}
+
+	&.mr-l-2x {
+		margin-left: $margin-2x;
+	}
+
+	&.mr-l-3x {
+		margin-left: $margin-3x;
+	}
+
+}
+
 .l-img-center {
 	margin: 0 auto;
 }
