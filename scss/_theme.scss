@@ -59,12 +59,30 @@
 }
 
 .t-margin-bt-3x {
-	margin-bottom: $margin-3x;
+	margin-bottom: $margin-3x !important;
 }
 
 .t-margin-bt-mob {
 	@media screen and(max-width: 767px) {
 		margin-bottom: $margin-2x;
+	}
+}
+
+.t-margin-bt-desktop {
+	@media screen and(min-width: 768px) {
+		margin-bottom: 1.5px;
+
+		&.m-1x {
+			margin-bottom: $margin-1x;
+		}
+
+		&.m-2x {
+			margin-bottom: $margin-2x;
+		}
+
+		&.m-3x {
+			margin-bottom: $margin-3x;
+		}
 	}
 }
 
@@ -78,6 +96,16 @@
 	@media screen and(min-width: 768px) {
 		margin-left: 1.5px;
 	}
+}
+
+img.scroll-down {
+    max-width: 45px;
+}
+
+// Layout styles
+
+.border-primary-bt {
+	border-bottom: 2px solid $gray;
 }
 
 // Customized
@@ -141,4 +169,12 @@ footer a:hover {
 
 .carousel-indicators li {
     border: 1px solid $black-lighter;
+}
+
+//-- Product Page --//
+
+// Product Page header
+.product-header {
+	background-image: url("../img/product-bg.jpg")
+
 }
