@@ -7987,6 +7987,30 @@ small, .font_small {
   padding-right: 4%;
 }
 
+.m-paddingless-img-row .paddingless-img {
+  margin: 0;
+}
+
+.m-paddingless-img-row .paddingless-img img {
+  height: auto;
+  width: 100%;
+  margin: 0 auto 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .m-paddingless-img-row .paddingless-img {
+    overflow: hidden;
+    margin: -7% 0 -7% -8%;
+    margin-right: 5%;
+    padding: 0;
+  }
+  .m-paddingless-img-row .paddingless-img img {
+    max-height: 100%;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
 .text-with-icon i {
   margin-right: 3%;
 }
@@ -8235,4 +8259,8 @@ footer a:hover {
 
 .training-header {
   background-image: url("../img/training-bg.jpg");
+}
+
+.about-header {
+  background-image: url("../img/about-bg.jpg");
 }
