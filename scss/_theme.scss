@@ -108,6 +108,21 @@ img.scroll-down {
 	border-bottom: 2px solid $gray;
 }
 
+// Form
+
+.form-control {
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid $brand-primary;
+    box-shadow: none;
+    padding: 20px 12px;
+
+    &:focus {
+    	box-shadow: none;
+    }
+}
+
+
 // Customized
 .home-header {
 	background-image: url("../img/header-bg.jpg");
@@ -193,6 +208,22 @@ footer a:hover {
 .about-header {
 	background-image: url("../img/about-bg.jpg");
 
+}
+
+//-- Contact Page --//
+
+// Contact Page header
+.contact-header {
+	background-image: url("../img/contact-bg.jpg");
+
+}
+
+.t-c-p-area {
+    border-left: 1px solid $gray;
+}
+
+.t-c-p-area:last-of-type {
+    border-right: 1px solid $gray;
 }
 
 
