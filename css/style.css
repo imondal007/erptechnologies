@@ -7897,7 +7897,7 @@ small, .font_small {
    ========================= */
 /* Navbar */
 .navbar-transparent {
-  background-color: transparent;
+  background-color: #343e48;
   border-color: transparent;
 }
 
@@ -7929,6 +7929,12 @@ small, .font_small {
 
 .navbar-transparent .navbar-nav > li > a.btn-warning:hover {
   background-color: #ffc820;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-transparent {
+    background-color: transparent;
+  }
 }
 
 .navbar-transparent-onscroll {
@@ -8212,7 +8218,6 @@ img.scroll-down {
 }
 
 .t-clients-logo {
-  padding: 10%;
   min-height: 222px;
   max-height: 222px;
   position: relative;
@@ -8223,8 +8228,8 @@ img.scroll-down {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 81%;
-  padding: 5%;
+  width: 100%;
+  padding: 25%;
 }
 
 .t-testimonial-carousel {

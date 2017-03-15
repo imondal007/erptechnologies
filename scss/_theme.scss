@@ -133,7 +133,6 @@ img.scroll-down {
 }
 
 .t-clients-logo {
-	padding: 10%;
 	min-height: 222px;
 	max-height: 222px;
 	position: relative;
@@ -144,8 +143,8 @@ img.scroll-down {
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-  	width: 81%;
-  	padding:5%
+  	width: 100%;
+  	padding: $padding-3x*5;
 }
 
 .t-testimonial-carousel {

@@ -1,7 +1,7 @@
 /* Navbar */
 
 .navbar-transparent {
-    background-color: transparent;
+    background-color: $black-lighter;
     border-color: transparent;
 
     .navbar-nav > li > a {
@@ -32,6 +32,10 @@
 
     .navbar-nav > li > a.btn-warning:hover {
         background-color: $btn-warning-bg;
+    }
+
+    @media screen and(min-width: 768px) {
+        background-color: transparent;
     }
 
 }
